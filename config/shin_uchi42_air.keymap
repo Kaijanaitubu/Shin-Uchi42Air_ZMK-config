@@ -26,6 +26,17 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <26 27>;
         };
+
+        right-brace {
+            bindings = <&kp PIPE>;
+            key-positions = <6 7>;
+            layers = <1>;
+        };
+
+        right-bracket {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
@@ -33,19 +44,19 @@
 
         default {
             bindings = <
-                         &kp Q   &kp W             &kp U             &kp COMMA         &kp DOT     &kp F     &kp W              &kp R             &kp Y         &kp P
-&kp ESCAPE               &kp A   &kp E             &mt LEFT_SHIFT O  &mt LEFT_SHIFT I  &kp MINUS   &kp K     &mt RIGHT_SHIFT T  &mt RSHIFT N      &kp S         &kp H       &kp QUESTION
-&kp LS(INTERNATIONAL_1)  &kp Z   &kp X             &kp C             &kp V             &kp SEMI    &kp G     &kp D              &kp M             &kp J         &kp B       &kp FSLH
+                         &kp Q   &kp W             &kp U             &kp COMMA         &kp DOT     &kp F     &kp D              &kp R             &kp Y         &kp P
+&kp ESCAPE               &kp A   &kp E             &mt LEFT_SHIFT O  &mt LEFT_SHIFT I  &kp MINUS   &kp M     &mt RIGHT_SHIFT T  &mt RSHIFT K      &kp N         &kp S       &kp QUESTION
+&kp LS(INTERNATIONAL_1)  &kp Z   &kp X             &kp C             &kp V             &kp SEMI    &kp G     &kp H              &kp J             &kp L         &kp B       &kp FSLH
 &tog 4                   &tog 4  &mt LEFT_ALT ESC  &lt 1 LANG2       &mt LCTRL SPACE   &kp DELETE  &kp BSPC  &mt RCTRL ENTER    &lt 3 LANGUAGE_1  &kp LEFT_WIN  &bt BT_PRV  &bt BT_NXT
             >;
         };
 
         arrow_num {
             bindings = <
-           &kp DOLLAR    &kp N7  &kp N8  &kp N9  &kp LBKT  &kp LEFT_BRACE  &kp LEFT_BRACE   &kp KP_NUMBER_8  &kp RIGHT_BRACE  &kp AMPERSAND
-&kp GRAVE  &kp NUMBER_0  &kp N4  &kp N5  &kp N6  &kp PLUS  &kp KP_EQUAL    &kp KP_NUMBER_4  &kp UP_ARROW     &kp KP_NUMBER_6  &kp KP_ASTERISK  &kp PIPE
-&kp TILDE  &kp TILDE     &kp N1  &kp N2  &kp N3  &kp RBKT  &kp KP_PLUS     &kp LEFT_ARROW   &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp KP_DIVIDE    &kp BACKSLASH
-&trans     &trans        &trans  &trans  &trans  &trans    &trans          &trans           &kp KP_NUMBER_0  &kp KP_DOT       &trans           &trans
+           &kp DOLLAR    &kp N7  &kp N8  &kp N9  &kp LBKT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp AMPERSAND
+&kp GRAVE  &kp NUMBER_0  &kp N4  &kp N5  &kp N6  &kp PLUS  &kp KP_EQUAL    &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp UNDER      &kp PIPE
+&kp TILDE  &kp TILDE     &kp N1  &kp N2  &kp N3  &kp RBKT  &kp KP_PLUS     &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp KP_DIVIDE  &kp BACKSLASH
+&trans     &trans        &trans  &trans  &trans  &trans    &trans          &trans           &kp KP_NUMBER_0    &kp KP_DOT            &trans         &trans
             >;
         };
 
