@@ -53,10 +53,10 @@
 
         arrow_num {
             bindings = <
-           &kp DOLLAR    &kp N7  &kp N8  &kp N9  &kp LBKT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp AMPERSAND
-&kp GRAVE  &kp NUMBER_0  &kp N4  &kp N5  &kp N6  &kp PLUS  &kp KP_EQUAL    &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp UNDER      &kp PIPE
-&kp TILDE  &kp TILDE     &kp N1  &kp N2  &kp N3  &kp RBKT  &kp KP_PLUS     &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp KP_DIVIDE  &kp BACKSLASH
-&trans     &trans        &trans  &trans  &trans  &trans    &trans          &trans           &kp KP_NUMBER_0    &kp KP_DOT            &trans         &trans
+              &kp LS(NUMBER_6)  &kp N7  &kp N8  &kp N9  &kp HASH          &kp COLON          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT           &kp LS(N7)
+&kp EQUAL     &kp NUMBER_0      &kp N4  &kp N5  &kp N6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)  &kp EXCL
+&kp LS(INT3)  &kp LEFT_BRACE    &kp N1  &kp N2  &kp N3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp KP_DIVIDE     &kp DOLLAR
+&trans        &trans            &trans  &trans  &trans  &trans            &trans             &trans           &trans             &trans                &trans            &trans
             >;
         };
 
