@@ -42,6 +42,11 @@
             bindings = <&tog 4>;
             key-positions = <11 12 13 14>;
         };
+
+        f2 {
+            bindings = <&kp F2>;
+            key-positions = <12 11>;
+        };
     };
 
     keymap {
@@ -98,6 +103,15 @@
 &kp TAB    &kp A   &kp S   &kp D      &kp F   &kp G   &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
 &kp LCTRL  &kp Z   &kp X   &kp C      &kp V   &kp B   &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
 &trans     &trans  &trans  &kp SPACE  &trans  &trans  &trans  &trans  &trans     &trans   &trans    &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
