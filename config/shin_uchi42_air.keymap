@@ -39,18 +39,13 @@
         };
 
         left-device {
-            bindings = <&tog 5>;
+            bindings = <&tog 6>;
             key-positions = <11 12 13 14>;
         };
 
         f2 {
             bindings = <&kp F2>;
             key-positions = <12 11>;
-        };
-
-        other-layer {
-            bindings = <&tog 4>;
-            key-positions = <37 42>;
         };
     };
 
@@ -62,7 +57,7 @@
                          &kp Q  &kp W           &kp U             &kp COMMA         &kp DOT            &kp F     &kp D                &kp R             &kp Y                     &kp P
 &kp ESCAPE               &kp A  &kp E           &mt LEFT_SHIFT O  &mt LEFT_SHIFT I  &kp MINUS          &kp M     &mt RIGHT_SHIFT T    &mt RSHIFT K      &kp N                     &kp S       &kp QUESTION
 &kp LS(INTERNATIONAL_1)  &kp Z  &kp X           &kp C             &kp V             &kp SEMI           &kp G     &kp H                &kp J             &kp L                     &kp SLASH   &kp B
-&tog 5                   &sl 2  &mt LCTRL LEFT  &lt 1 LANG2       &kp SPACE         &mt LA(LCTRL) DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 1 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
+&tog 6                   &sl 3  &mt LCTRL LEFT  &lt 1 LANG2       &kp SPACE         &mt LA(LCTRL) DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 2 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
             >;
         };
 
@@ -75,12 +70,21 @@
             >;
         };
 
+        arrow-num-kp {
+            bindings = <
+              &kp LS(NUMBER_6)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp HASH          &kp COLON          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT           &kp LS(N7)
+&kp EQUAL     &kp KP_NUMBER_0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)  &kp EXCL
+&kp LS(INT3)  &kp LEFT_BRACE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp KP_DIVIDE     &kp DOLLAR
+&trans        &trans            &trans           &trans           &trans           &trans            &trans             &trans           &trans             &trans                &trans            &trans
+            >;
+        };
+
         default-us {
             bindings = <
                          &kp Q   &kp W           &kp U             &kp COMMA         &kp DOT            &kp F     &kp D                &kp R             &kp Y                     &kp P
 &kp ESCAPE               &kp A   &kp E           &mt LEFT_SHIFT O  &mt LEFT_SHIFT I  &kp MINUS          &kp M     &mt RIGHT_SHIFT T    &mt RSHIFT K      &kp N                     &kp S       &kp QUESTION
 &kp LS(INTERNATIONAL_1)  &kp Z   &kp X           &kp C             &kp V             &kp SEMI           &kp G     &kp H                &kp J             &kp L                     &kp SLASH   &kp B
-&tog 5                   &trans  &mt LCTRL LEFT  &lt 3 LANG2       &kp SPACE         &mt LA(LCTRL) DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 3 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
+&tog 6                   &trans  &mt LCTRL LEFT  &lt 4 LANG2       &kp SPACE         &mt LA(LCTRL) DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 4 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
             >;
         };
 
@@ -121,5 +125,12 @@
         };
     };
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        others {
+            if-layers = <1 2>;
+            then-layer = <5>;
+        };
+    };
 };
