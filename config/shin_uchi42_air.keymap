@@ -37,6 +37,11 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <7 18>;
         };
+
+        left-device {
+            bindings = <&tog 4>;
+            key-positions = <11 12 13 14>;
+        };
     };
 
     keymap {
