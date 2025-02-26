@@ -29,13 +29,13 @@
 
         right-brace {
             bindings = <&kp PIPE>;
-            key-positions = <6 7>;
+            key-positions = <6 17>;
             layers = <1>;
         };
 
         right-bracket {
             bindings = <&kp BACKSLASH>;
-            key-positions = <7 8>;
+            key-positions = <7 18>;
         };
     };
 
