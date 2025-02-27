@@ -31,7 +31,6 @@
         right-brace {
             bindings = <&kp PIPE>;
             key-positions = <6 17>;
-            layers = <1>;
         };
 
         right-bracket {
@@ -42,6 +41,7 @@
         left-device {
             bindings = <&tog 6>;
             key-positions = <11 12 13 14>;
+            layers = <0 1 2 3 4 5 6 7>;
         };
 
         f2 {
@@ -52,6 +52,7 @@
         toggle-default {
             bindings = <&tog 0>;
             key-positions = <17 18 19 20>;
+            layers = <0 1 2 3 4 5 6 7>;
         };
     };
 
