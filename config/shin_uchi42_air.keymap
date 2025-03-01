@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
@@ -52,7 +51,7 @@
         toggle-default {
             bindings = <&tog 0>;
             key-positions = <17 18 19 20>;
-            layers = <0 1 2 3 4 5 6 7>;
+            layers = <1 2 3 4 5 6 7>;
         };
     };
 
@@ -115,19 +114,19 @@
 
         left-device {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+         &kp Q   &kp W      &kp E      &kp R      &kp T   &kp Y   &kp U   &kp I      &kp O    &kp P
+&kp ESC  &kp A   &kp S      &kp D      &kp F      &kp G   &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
+&kp TAB  &kp Z   &kp X      &kp C      &kp V      &kp B   &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
+&trans   &trans  &kp LCTRL  &kp LSHFT  &kp SPACE  &trans  &trans  &trans  &trans     &trans   &trans    &trans
             >;
         };
 
         gaming {
             bindings = <
-                &kp N0            &kp Q         &kp W         &kp E      &kp NUMBER_1  &kp Y   &kp U   &kp I      &kp O    &kp P
-&kp TAB         &kp LEFT_CONTROL  &kp A         &kp S         &kp D      &kp F         &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&kp LEFT_SHIFT  &bl BL_ON         &none         &none         &none      &kp NUMBER_3  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-&trans          &to 0             &kp NUMBER_1  &kp NUMBER_2  &kp SPACE  &trans        &trans  &trans  &trans     &trans   &trans    &trans
+         &kp N0            &kp Q         &kp W         &kp E      &kp NUMBER_1  &kp Y   &kp U   &kp I      &kp O    &kp P
+&kp TAB  &kp LEFT_CONTROL  &kp A         &kp S         &kp D      &kp F         &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
+&kp T    &kp LEFT_SHIFT    &none         &none         &none      &kp NUMBER_3  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+&trans   &to 0             &kp NUMBER_3  &kp NUMBER_2  &kp SPACE  &kp RET       &trans  &trans  &trans     &trans   &trans    &trans
             >;
         };
     };
