@@ -49,7 +49,7 @@
         };
 
         toggle-default {
-            bindings = <&tog 0>;
+            bindings = <&tog 8>;
             key-positions = <17 18 19 20>;
             layers = <1 2 3 4 5 6 7>;
         };
@@ -67,7 +67,7 @@
             >;
         };
 
-        arrow_num {
+        arrow-num {
             bindings = <
               &kp LS(NUMBER_6)  &kp N7  &kp N8  &kp N9  &kp HASH          &kp COLON          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT           &kp LS(N7)
 &kp EQUAL     &kp NUMBER_0      &kp N4  &kp N5  &kp N6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)  &kp EXCL
@@ -127,6 +127,15 @@
 &kp TAB  &kp LEFT_CONTROL  &kp A         &kp S         &kp D      &kp F         &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
 &kp T    &kp LEFT_SHIFT    &none         &none         &none      &kp NUMBER_3  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
 &trans   &to 0             &kp NUMBER_3  &kp NUMBER_2  &kp SPACE  &kp RET       &trans  &trans  &trans     &trans   &trans    &trans
+            >;
+        };
+
+        toggle-default {
+            bindings = <
+                         &kp Q  &kp W           &kp U             &kp COMMA         &kp DOT       &kp F     &kp D                &kp R             &kp Y                     &kp P
+&kp ESCAPE               &kp A  &kp I           &mt LEFT_SHIFT E  &mt LEFT_SHIFT O  &kp MINUS     &kp M     &mt RIGHT_SHIFT T    &mt RSHIFT K      &kp N                     &kp S       &kp QUESTION
+&kp LS(INTERNATIONAL_1)  &kp Z  &kp X           &kp C             &kp V             &kp SEMI      &kp G     &kp H                &kp J             &kp L                     &kp SLASH   &kp B
+&tog 7                   &to 3  &mt LCTRL LEFT  &lt 1 LANG2       &kp SPACE         &mt LALT DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 2 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
             >;
         };
     };
