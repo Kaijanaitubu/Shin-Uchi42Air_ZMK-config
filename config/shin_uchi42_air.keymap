@@ -51,7 +51,6 @@
         toggle-default {
             bindings = <&tog 8>;
             key-positions = <17 18 19 20>;
-            layers = <1 2 3 4 5 6 7>;
         };
     };
 
@@ -125,7 +124,7 @@
             bindings = <
          &kp N0            &kp Q         &kp W         &kp E      &kp NUMBER_1  &kp Y   &kp U   &kp I      &kp O    &kp P
 &kp ESC  &kp LEFT_CONTROL  &kp A         &kp S         &kp D      &kp F         &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&kp TAB  &kp LEFT_SHIFT    &none         &none         &none      &kp NUMBER_3  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+&kp TAB  &kp LEFT_SHIFT    &kp T         &kp M         &kp SLASH  &kp NUMBER_3  &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
 &trans   &to 0             &kp NUMBER_3  &kp NUMBER_2  &kp SPACE  &kp RET       &trans  &trans  &trans     &trans   &trans    &trans
             >;
         };
