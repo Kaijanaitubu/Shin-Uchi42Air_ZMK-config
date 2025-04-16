@@ -51,18 +51,6 @@
             bindings = <&tog 9>;
             key-positions = <17 18 19 20>;
         };
-
-        copy {
-            bindings = <&kp LC(C)>;
-            key-positions = <14 37>;
-            layers = <6>;
-        };
-
-        paste {
-            bindings = <&kp LC(V)>;
-            key-positions = <37 15>;
-            layers = <6>;
-        };
     };
 
     keymap {
