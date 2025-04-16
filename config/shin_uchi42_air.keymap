@@ -51,6 +51,18 @@
             bindings = <&tog 8>;
             key-positions = <17 18 19 20>;
         };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <14 37>;
+            layers = <6>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <37 15>;
+            layers = <6>;
+        };
     };
 
     keymap {
@@ -112,10 +124,10 @@
 
         left-device {
             bindings = <
-         &kp Q   &kp W      &kp E      &kp R      &kp T   &kp Y   &kp U   &kp I      &kp O    &kp P
-&kp ESC  &kp A   &kp S      &kp D      &kp F      &kp G   &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&kp TAB  &kp Z   &kp X      &kp C      &kp V      &kp B   &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
-&trans   &trans  &kp LCTRL  &kp LSHFT  &kp SPACE  &trans  &trans  &trans  &trans     &trans   &trans    &trans
+         &kp Q   &kp W      &kp E             &kp R         &kp T   &kp Y   &kp U   &kp I      &kp O    &kp P
+&kp ESC  &kp A   &kp S      &kp D             &mt LSHIFT B  &kp G   &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
+&kp TAB  &kp Z   &kp X      &kp C             &kp V         &kp B   &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
+&trans   &trans  &kp LC(S)  &kp LEFT_CONTROL  &kp SPACE     &trans  &trans  &trans  &trans     &trans   &trans    &trans
             >;
         };
 
