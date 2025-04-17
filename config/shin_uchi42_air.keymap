@@ -112,10 +112,10 @@
 
         left-device {
             bindings = <
-                &kp Q   &kp W             &kp E    &kp L         &kp T      &kp Y   &kp U   &kp I      &kp O    &kp P
-&kp ESC         &kp I   &kp M             &kp D    &mt LSHIFT B  &kp G      &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
-&kp LEFT_SHIFT  &kp Z   &kp X             &kp E    &kp V         &kp B      &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
-&trans          &trans  &kp LEFT_CONTROL  &lt 7 V  &kp SPACE     &kp LC(S)  &trans  &trans  &trans     &trans   &trans    &trans
+                &kp Q   &kp W             &kp E    &kp L         &kp T       &kp Y   &kp U   &kp I      &kp O    &kp P
+&kp ESC         &kp I   &kp M             &kp D    &mt LSHIFT B  &kp G       &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
+&kp LEFT_SHIFT  &kp Z   &kp X             &kp E    &kp V         &kp B       &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
+&trans          &trans  &kp LEFT_CONTROL  &lt 7 V  &kp SPACE     &kp DELETE  &trans  &trans  &trans     &trans   &trans    &trans
             >;
         };
 
