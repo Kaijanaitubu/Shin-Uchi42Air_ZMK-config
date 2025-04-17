@@ -51,6 +51,11 @@
             bindings = <&tog 9>;
             key-positions = <17 18 19 20>;
         };
+
+        enter {
+            bindings = <&kp RET>;
+            key-positions = <14 13>;
+        };
     };
 
     keymap {
