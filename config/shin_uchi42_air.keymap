@@ -126,10 +126,10 @@
 
         left_shortcut {
             bindings = <
-        &trans     &trans     &kp LC(D)  &kp LS(N)  &kp LC(Y)  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LC(A)  &kp LC(S)  &kp LC(C)  &kp LC(V)  &kp LC(X)  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
+        &trans     &trans     &kp LC(D)      &trans     &kp LC(Y)  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LC(A)  &kp LC(S)  &kp LA(LS(N))  &kp LS(N)  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &kp LC(X)  &kp LC(C)      &kp LC(V)  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans     &trans         &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
