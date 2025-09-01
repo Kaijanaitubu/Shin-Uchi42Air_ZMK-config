@@ -83,7 +83,7 @@
             bindings = <
               &kp LS(NUMBER_6)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp HASH          &kp COLON          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT           &kp LS(N7)
 &kp EQUAL     &kp KP_NUMBER_0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)  &kp EXCL
-&kp LS(INT3)  &kp LEFT_BRACE    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp KP_DIVIDE     &kp DOLLAR
+&kp LS(INT3)  &kp LEFT_BRACKET  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp KP_DIVIDE     &kp DOLLAR
 &trans        &trans            &trans           &trans           &trans           &trans            &trans             &trans           &trans             &trans                &trans            &trans
             >;
         };
@@ -108,10 +108,10 @@
 
         others {
             bindings = <
-        &kp F2  &kp F3  &kp F4   &kp F5   &kp F6   &kp PRINTSCREEN  &kp HOME  &kp UP            &kp PG_UP      &kp C_VOL_DN
-&kp F1  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &kp C_PREV       &kp LEFT  &kp DOWN          &kp RIGHT      &kp C_MUTE            &kp C_VOL_UP
-&kp F7  &none   &none   &none    &none    &none    &kp C_NEXT       &kp END   &kp C_PLAY_PAUSE  &kp PAGE_DOWN  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-&trans  &trans  &trans  &trans   &trans   &trans   &trans           &trans    &trans            &trans         &trans                &trans
+        &kp F2  &kp F3  &kp F4   &kp F5   &kp F6          &kp PRINTSCREEN  &kp HOME  &kp UP            &kp PG_UP      &kp C_VOL_DN
+&kp F1  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12         &kp C_PREV       &kp LEFT  &kp DOWN          &kp RIGHT      &kp C_MUTE            &kp C_VOL_UP
+&kp F7  &none   &none   &none    &none    &kp KP_NUMLOCK  &kp C_NEXT       &kp END   &kp C_PLAY_PAUSE  &kp PAGE_DOWN  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+&trans  &trans  &trans  &trans   &trans   &trans          &trans           &trans    &trans            &trans         &trans                &trans
             >;
         };
 
