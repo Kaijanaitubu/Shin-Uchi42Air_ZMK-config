@@ -56,6 +56,16 @@
             bindings = <&kp RET>;
             key-positions = <14 13>;
         };
+
+        greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <16 5>;
+        };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <28 16>;
+        };
     };
 
     keymap {
