@@ -89,18 +89,18 @@
         arrow-num {
             bindings = <
               &kp LS(NUMBER_6)  &kp N7  &kp N8  &kp N9  &kp HASH          &kp COLON          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT           &kp LS(N7)
-&kp EQUAL     &kp NUMBER_0      &kp N4  &kp N5  &kp N6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)  &kp EXCL
-&kp LS(INT3)  &kp LBKT          &kp N1  &kp N2  &kp N3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp BACKSLASH     &kp DOLLAR
-&trans        &trans            &trans  &trans  &trans  &trans            &trans             &trans           &trans             &trans                &trans            &trans
+&kp EQUAL     &kp NUMBER_0      &kp N4  &kp N5  &kp N6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)     &kp EXCL
+&kp LS(INT3)  &kp LBKT          &kp N1  &kp N2  &kp N3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp INTERNATIONAL_1  &kp DOLLAR
+&trans        &trans            &trans  &trans  &trans  &trans            &trans             &trans           &trans             &trans                &trans               &trans
             >;
         };
 
         arrow-num-kp {
             bindings = <
               &kp LS(NUMBER_6)  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp HASH          &kp COLON          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PERCENT           &kp LS(N7)
-&kp EQUAL     &kp KP_NUMBER_0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)  &kp EXCL
-&kp LS(INT3)  &kp LEFT_BRACKET  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp BACKSLASH     &kp DOLLAR
-&trans        &trans            &trans           &trans           &trans           &trans            &trans             &trans           &trans             &trans                &trans            &trans
+&kp EQUAL     &kp KP_NUMBER_0   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS          &kp UNDER          &kp ASTERISK     &kp UP_ARROW       &kp LEFT_PARENTHESIS  &kp LS(NUMBER_2)     &kp EXCL
+&kp LS(INT3)  &kp LEFT_BRACKET  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp LEFT_ARROW   &kp DOWN_ARROW     &kp RIGHT_ARROW       &kp INTERNATIONAL_1  &kp DOLLAR
+&trans        &trans            &trans           &trans           &trans           &trans            &trans             &trans           &trans             &trans                &trans               &trans
             >;
         };
 
