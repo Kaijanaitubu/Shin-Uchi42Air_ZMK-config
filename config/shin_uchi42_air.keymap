@@ -66,6 +66,11 @@
             bindings = <&kp LESS_THAN>;
             key-positions = <28 16>;
         };
+
+        grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <20 9>;
+        };
     };
 
     keymap {
