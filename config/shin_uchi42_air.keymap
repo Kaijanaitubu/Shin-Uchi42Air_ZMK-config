@@ -38,7 +38,7 @@
         };
 
         left-device {
-            bindings = <&tog 6>;
+            bindings = <&tog 4>;
             key-positions = <11 12 13 14>;
         };
 
@@ -48,7 +48,7 @@
         };
 
         toggle-default {
-            bindings = <&tog 9>;
+            bindings = <&tog 7>;
             key-positions = <17 18 19 20>;
         };
 
@@ -70,7 +70,7 @@
         grave {
             bindings = <&kp LS(LEFT_BRACKET)>;
             key-positions = <20 9>;
-            layers = <0 1 2 3 4 9>;
+            layers = <0 1 2 7>;
         };
     };
 
@@ -82,7 +82,7 @@
                          &kp Q  &kp W           &kp U             &kp COMMA         &kp DOT       &kp F     &kp D                &kp R             &kp Y                     &kp P
 &kp ESCAPE               &kp A  &kp I           &mt LEFT_SHIFT E  &mt LEFT_SHIFT O  &kp MINUS     &kp M     &mt RIGHT_SHIFT T    &mt RSHIFT K      &kp N                     &kp S       &kp QUESTION
 &kp LS(INTERNATIONAL_1)  &kp Z  &kp X           &kp C             &kp V             &kp SEMI      &kp G     &kp H                &kp J             &kp L                     &kp SLASH   &kp B
-&tog 8                   &to 3  &mt LCTRL LEFT  &lt 2 LANG2       &kp SPACE         &mt LALT DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 1 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
+&tog 6                   &to 6  &mt LCTRL LEFT  &lt 2 LANG2       &kp SPACE         &mt LALT DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 1 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
             >;
         };
 
@@ -104,24 +104,6 @@
             >;
         };
 
-        default-us {
-            bindings = <
-            &kp Q  &kp W           &kp U             &kp COMMA         &kp DOT            &kp F     &kp D                &kp R             &kp Y                     &kp P
-&kp ESCAPE  &kp A  &kp I           &mt LEFT_SHIFT E  &mt LEFT_SHIFT O  &kp MINUS          &kp M     &mt RIGHT_SHIFT T    &mt RSHIFT K      &kp N                     &kp S       &kp QUESTION
-&kp UNDER   &kp Z  &kp X           &kp C             &kp V             &kp SEMI           &kp G     &kp H                &kp J             &kp L                     &kp SLASH   &kp B
-&tog 6      &to 8  &mt LCTRL LEFT  &lt 4 LANG2       &kp SPACE         &mt LA(LCTRL) DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 4 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
-            >;
-        };
-
-        arrow-num-us {
-            bindings = <
-           &kp AMPS  &kp N7  &kp N8  &kp N9  &kp HASH   &kp PLUS      &kp LBKT              &kp LEFT_BRACE  &kp PERCENT            &kp APOSTROPHE
-&kp CARET  &kp N0    &kp N4  &kp N5  &kp N6  &kp TILDE  &kp EQUAL     &kp LEFT_PARENTHESIS  &kp UP_ARROW    &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp EXCLAMATION
-&kp PIPE   &kp AT    &kp N1  &kp N2  &kp N3  &kp COLON  &kp ASTERISK  &kp LEFT              &kp DOWN        &kp RIGHT              &kp BSLH           &kp DOLLAR
-&trans     &trans    &trans  &trans  &trans  &trans     &trans        &trans                &trans          &trans                 &trans             &trans
-            >;
-        };
-
         others {
             bindings = <
         &kp F2  &kp F3  &kp F4   &kp F5   &kp F6          &kp PRINTSCREEN  &kp HOME  &kp UP            &kp PG_UP      &kp C_VOL_DN
@@ -136,7 +118,7 @@
               &kp Q   &kp W                  &kp E              &kp L         &kp LC(Z)  &kp Y   &kp U   &kp I      &kp O    &kp P
 &kp ESC       &kp I   &kp M                  &kp D              &mt LSHIFT B  &kp G      &kp H   &kp J   &kp K      &kp L    &kp SEMI  &trans
 &kp LEFT_ALT  &kp Z   &kp X                  &kp E              &kp V         &kp Z      &kp N   &kp M   &kp COMMA  &kp DOT  &trans    &trans
-&trans        &trans  &mt LEFT_CONTROL LEFT  &lt 7 RIGHT_ARROW  &kp SPACE     &kp DEL    &trans  &trans  &trans     &trans   &trans    &trans
+&trans        &trans  &mt LEFT_CONTROL LEFT  &lt 5 RIGHT_ARROW  &kp SPACE     &kp DEL    &trans  &trans  &trans     &trans   &trans    &trans
             >;
         };
 
@@ -151,10 +133,10 @@
 
         gaming {
             bindings = <
-         &kp N0            &kp Q         &kp W         &kp E      &kp NUMBER_1  &kp Y   &kp U   &kp I      &kp O             &kp P
-&kp ESC  &kp LEFT_CONTROL  &kp A         &kp S         &kp D      &kp F         &kp H   &kp J   &kp K      &kp L             &kp SEMI  &trans
-&kp TAB  &kp LEFT_SHIFT    &kp T         &kp M         &kp SLASH  &kp NUMBER_3  &kp N   &kp M   &kp COMMA  &kp DOT           &kp FSLH  &trans
-&trans   &to 0             &kp NUMBER_3  &kp NUMBER_2  &kp SPACE  &kp RET       &trans  &trans  &trans     &lt 0 LEFT_SHIFT  &trans    &trans
+         &kp N0            &kp Q         &kp W         &kp E      &kp R    &kp Y   &kp U   &kp I      &kp O             &kp P
+&kp ESC  &kp LEFT_CONTROL  &kp A         &kp S         &kp D      &kp F    &kp H   &kp J   &kp K      &kp L             &kp SEMI  &trans
+&kp TAB  &kp LEFT_SHIFT    &kp T         &kp M         &kp SLASH  &kp C    &kp N   &kp M   &kp COMMA  &kp DOT           &kp FSLH  &trans
+&trans   &to 0             &kp NUMBER_3  &kp NUMBER_2  &kp SPACE  &kp RET  &trans  &trans  &trans     &lt 0 LEFT_SHIFT  &trans    &trans
             >;
         };
 
@@ -163,7 +145,7 @@
                          &kp Q  &kp W           &kp U             &kp COMMA         &kp DOT       &kp F     &kp D                &kp R             &kp Y                     &kp P
 &kp ESCAPE               &kp A  &kp I           &mt LEFT_SHIFT E  &mt LEFT_SHIFT O  &kp MINUS     &kp M     &mt RIGHT_SHIFT T    &mt RSHIFT K      &kp N                     &kp S       &kp QUESTION
 &kp LS(INTERNATIONAL_1)  &kp Z  &kp X           &kp C             &kp V             &kp SEMI      &kp G     &kp H                &kp J             &kp L                     &kp SLASH   &kp B
-&tog 8                   &to 3  &mt LCTRL LEFT  &lt 1 LANG2       &kp SPACE         &mt LALT DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 2 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
+&tog 6                   &to 0  &mt LCTRL LEFT  &lt 1 LANG2       &kp SPACE         &mt LALT DEL  &kp BSPC  &mt RS(RCTRL) ENTER  &lt 2 LANGUAGE_1  &mt LEFT_WIN RIGHT_ARROW  &bt BT_PRV  &bt BT_NXT
             >;
         };
     };
@@ -173,7 +155,7 @@
 
         others {
             if-layers = <1 2>;
-            then-layer = <5>;
+            then-layer = <3>;
         };
     };
 };
