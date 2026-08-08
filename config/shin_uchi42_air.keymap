@@ -39,7 +39,7 @@
         };
 
         left-device {
-            bindings = <&tog 4>;
+            bindings = <&to 4>;
             key-positions = <11 12 13 14>;
         };
 
@@ -50,7 +50,7 @@
         };
 
         toggle-default {
-            bindings = <&tog 7>;
+            bindings = <&to 0>;
             key-positions = <17 18 19 20>;
         };
 
